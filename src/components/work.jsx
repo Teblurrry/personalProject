@@ -25,7 +25,7 @@ const Work = () => {
                                     </div>
                                     <div className="fa-div">
                                         <h5>Solution:</h5>
-                                        <p>Checking whether the path is reference or abstract is the first choice.
+                                        <p>Checking whether the path is relative or absolute is the first choice.
                                         Punctuation is the second choice.
                                         </p>
                                         <i className="fa-solid fa-expand"></i>
