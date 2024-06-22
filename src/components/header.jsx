@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
     const [sidebar, setSidebar] = useState(false)
@@ -25,7 +26,7 @@ const Header = () => {
                             <li><Link to="/interests">Interests</Link></li>
                             <li><Link to="/education">Education</Link></li>
                             <ul className="fa-ul" onClick={() => setSidebar(false)}>
-                                <li><span className="fa-li"><i className="fa-solid fa-check-square"></i></span>Checked</li>
+                                <li><span className="fa-li"><FontAwesomeIcon icon={faCheck} /></span>Checked</li>
                                 <li><span className="fa-li"><i className="fa-solid fa-spinner fa-pulse"></i></span>To be Continued</li>
                                 <li><span className="fa-li"><i className="fa-regular fa-square"></i></span>Others</li>
                             </ul>
