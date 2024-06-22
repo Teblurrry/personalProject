@@ -14,7 +14,7 @@ const Work = () => {
                                 <div className="img grid">
                                 <img src={require('./p1.png')} alt="Image Test" />
                                 <img src={require('./p2.png')} alt="Image Test" />
-                                <img src={require('./Picture1.png')} alt="Image Test" />
+                                <img src={require('./Picture 1.png')} alt="Image Test" />
                                 </div>
                                 <div className="overlay">
                                     <div className="text">
