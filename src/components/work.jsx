@@ -22,7 +22,11 @@ const Work = () => {
                                         <h5>Problem:</h5>
                                         <p>The wrong link made my image failed to show correctly.</p>
                                         <h5>Reasons:</h5>
-                                        <p>Addressing this problem can let my website run more smoothly, and easier for other people to read it, that's why it's vital to solve this problem.</p>
+                                        <p> Ensures proper functionality of websites
+                                            Improves user experience
+                                            Reduces maintenance time and costs
+                                            Prevents broken links and missing content
+                                        </p>
                                     </div>
                                     <div className="fa-div">
                                         <h5>Solution:</h5>
