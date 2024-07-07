@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/header';
-// import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+// import { BrowserRouterasRouter, Routes, Route, redirect } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 // import HomePages from './components/HomePages';
 import HomeTest from './components/home';
@@ -23,6 +23,7 @@ function App() {
             <Route path='/projects' exact Component={Work} />
             <Route path='/education' exact Component={education} />
             <Route path='/contact' exact Component={contact} />
+
           </Routes>
           <Footer />
       </Router>
