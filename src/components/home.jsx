@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import TableDisplay from "./tableDisplay";
 
 const HomeTest = () => {
     return (
@@ -24,7 +25,9 @@ const HomeTest = () => {
                         <p>My coding practices emphasize clean, maintainable code, reflecting my commitment to high-quality software development.</p> 
                         <p>I continuously strive to expand my knowledge, always eager to embrace new technologies and methodologies. </p>
                         <p>Through my projects and coursework, I have honed my skills in full-stack development, particularly in React and Spring Boot.</p>     
-                        <p>My goal is to leverage my technical expertise and enthusiasm to contribute effectively to innovative software solutions.</p>    
+                        <p>My goal is to leverage my technical expertise and enthusiasm to contribute effectively to innovative software solutions.</p> 
+                        
+
                         <div className="fa-div">
                             <a href="https://github.com/"><FontAwesomeIcon icon={faGithub} /></a>
                             <a href="https://www.outlook.com/"><FontAwesomeIcon icon={faEnvelope} /></a>

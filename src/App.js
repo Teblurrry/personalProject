@@ -9,6 +9,7 @@ import Pages from './components/pages';
 import Work from './components/work';
 import education from './components/education';
 import contact from './components/contact';
+import TableDisplay from './components/tableDisplay';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
             <Route path='/projects' exact Component={Work} />
             <Route path='/education' exact Component={education} />
             <Route path='/contact' exact Component={contact} />
-
+            <Route path="/assignment" element={<TableDisplay csvPath="Table_Input.csv" />}/>
           </Routes>
           <Footer />
       </Router>

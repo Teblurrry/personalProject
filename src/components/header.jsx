@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
+import TableDisplay from "./tableDisplay";
 
 const Header = () => {
     const [sidebar, setSidebar] = useState(false)
@@ -24,6 +25,7 @@ const Header = () => {
                     <div className="nav">
                         <ul className={sidebar ? "nav-links-sidebar" : "nav-links"} onClick={() => setSidebar(false)}>
                             <li><Link to="/home">Home</Link></li>
+                            <li><Link to="/assignment">Assignment</Link></li>
                             <li><Link to="/projects">Projects</Link></li>
                             <li><Link to="/interests">Interests</Link></li>
                             <li><Link to="/education">Education</Link></li>
